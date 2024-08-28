@@ -1,11 +1,54 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ li {
+    list-style:none;
+ }
+
+
+
+
+
+
 body {
     background-color: #fffbf3;
 }
-
-
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 43px;
+    margin-top: 74px;
+    margin-right: 123px;
+    margin-left: 123px;
+   
+  
+}
+header div {
+    display: flex;
+    align-items: center;
+}
 ul {
     list-style: none;
+    display: flex;
+   
+}
+
+li {
+    padding-right: 49px;
 }
 
 
+a {
+    text-decoration: none;
+    color: #000;
+}
 
+span {
+    margin: 0 46px;
+    border: 1px solid #C9C9C9;
+    height: 43px;
+}
